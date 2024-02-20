@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CDN Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <title>Home</title>
+</head>
+
+<body class="h-screen flex flex-col justify-between">
+
+    <!-- Header -->
+    <Header>
+
+
+        <nav class="bg-blue-500 border-gray-200">
+            <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="https://flowbite.com/" class="flex items-center space-x-3">
+                    <img src="/image/Logo.png" class="h-[50px]" alt="" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap">E-Learning</span>
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0">
+                    <div>
+                        <button type="button"
+                            class="text-white bg-green-600 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">Sign
+                            Up</button>
+                        <button type="button"
+                            class="text-white bg-red-700 hover:bg-red-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">Login</button>
+                    </div>
+                    <button data-collapse-toggle="navbar-cta" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0  0  17  14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1  1h15M1  7h15M1  13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 md:flex-row md:mt-0 md:border-0 md:bg-transparent">
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:text-blue-500">Course</a>
+                        </li>
+
+
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:text-blue-500">Get
+                                Certificate</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:text-blue-500">Review</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:hover:text-blue-500">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </Header>
+    <!-- Hero -->
+    <section class="" style="background: linear-gradient(to top, #A0DDFF, #ffffff);">
+        <div class="grid max-w-screen-2xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
+            <div class="mr-auto place-self-center lg:col-span-7">
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
+                    Lockdown Can’t
+                    Stop Your Learning</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                    Welcome to [E-Learning], where learning is transformed into success! We offer a comprehensive
+                    suite of online courses designed to empower you with knowledge and skills that can change your
+                    life. Whether you're looking to advance in your career, start a new hobby, or simply learn
+                    something new, our interactive and flexible courses are tailored to fit your needs.</p>
+                <a href="#"
+                    class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-blue-500 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                    Get started
+                    <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+
+            </div>
+            <div class="hidden lg:mt-0 lg:col-span-4 lg:flex">
+                <img src="image/Hero1.png" alt="mockup">
+            </div>
+        </div>
+    </section>
+    <!-- Main -->
+    <main class="">
+        <section>
+            <hr class="max-w-screen-2xl my-6 border-gray-200 sm:mx-auto lg:my-8" />
+            <div class="max-w-screen-2xl mx-auto flex flex-row justify-between">
+                <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" class="w-[100px]" alt="">
+                <img src="https://global.discourse-cdn.com/business7/uploads/replitteams/original/2X/4/436c792eb6b4ca3f1557265b5042c1ed5f1e4b45.png"
+                    class="w-[150px]" alt="">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*2lQXVuZ4cOaSdbWaf9NPYA.png" class="w-[150px]"
+                    alt="">
+                <img src="https://images.squarespace-cdn.com/content/v1/5717ee8e1bbee08525c09f91/1466826449870-HA6YO1TOEDA1BQP3OCOB/image-asset.png"
+                    class="w-[100px]" alt="">
+            </div>
+            <hr class="max-w-screen-2xl my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        </section>
+        <section class="mx-auto max-w-screen-2xl">
+            <h1
+                class="mb-8 text-center text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl text-gray-800">
+                Popular Course</h1>
+            <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 justify-items-center">
+                <!-- Card  1 -->
+                <div
+                    class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+                    <!-- Card Image -->
+                    <img src="https://img-c.udemycdn.com/course/240x135/567828_67d0.jpg" alt="Card image"
+                        class="w-full h-48 object-cover rounded-t-lg border border-gray-300g">
+                    <!-- Title under the image -->
+                    <h2 class="text-xl text-center font-semibold mt-4">The Complete Python Bootcamp From Zero to Hero in Python</h2>
+                    <!-- Price -->
+                    <div class="text-center mt-2">
+                        <span class="text-2xl font-bold text-blue-700">$74.99</span>
+                        <span class="text-base font-medium text-gray-500">/month</span>
+                    </div>
+                    <ul role="list" class="space-y-5 my-7">
+                        <li class="flex items-center">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-700" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0  0  20  20">
+                                <path
+                                    d="M10 .5a9.5  9.5  0  1  0  9.5  9.5A9.51  9.51  0  0  0  10 .5Zm3.707  8.207-4  4a1  1  0  0  1-1.414  0l-2-2a1  1  0  0  1  1.414-1.414L9  10.586l3.293-3.293a1  1  0  0  1  1.414  1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 ms-3">You will learn how to leverage the power of Python to solve tasks.</span>
+                        </li>
+                        <li class="flex">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-700" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0  0  20  20">
+                                <path
+                                    d="M10 .5a9.5  9.5  0  1  0  9.5  9.5A9.51  9.51  0  0  0  10 .5Zm3.707  8.207-4  4a1  1  0  0  1-1.414  0l-2-2a1  1  0  0  1  1.414-1.414L9  10.586l3.293-3.293a1  1  0  0  1  1.414  1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 ms-3">You will build games and programs that use Python libraries.</span>
+                        </li>
+                        <li class="flex">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-700" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0  0  20  20">
+                                <path
+                                    d="M10 .5a9.5  9.5  0  1  0  9.5  9.5A9.51  9.51  0  0  0  10 .5Zm3.707  8.207-4  4a1  1  0  0  1-1.414  0l-2-2a1  1  0  0  1  1.414-1.414L9  10.586l3.293-3.293a1  1  0  0  1  1.414  1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 ms-3">You will be able to use Python for your own work problems or personal projects.</span>
+                        </li>
+                    </ul>
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Enroll Now</button>
+                </div>
+                <div
+                    class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+                    <!-- Card Image -->
+                    <img src="https://img-c.udemycdn.com/course/240x135/1565838_e54e_18.jpg" alt="Card image"
+                        class="w-full h-48 object-cover rounded-t-lg border border-gray-300g">
+                    <!-- Title under the image -->
+                    <h2 class="text-xl text-center font-semibold mt-4">The Complete 2024 Web Development Bootcamp</h2>
+                    <!-- Price -->
+                    <div class="text-center mt-2">
+                        <span class="text-2xl font-bold text-blue-700">$74.99</span>
+                        <span class="text-base font-medium text-gray-500">/month</span>
+                    </div>
+                    <ul role="list" class="space-y-5 my-7">
+                        <li class="flex items-center">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-700" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0  0  20  20">
+                                <path
+                                    d="M10 .5a9.5  9.5  0  1  0  9.5  9.5A9.51  9.51  0  0  0  10 .5Zm3.707  8.207-4  4a1  1  0  0  1-1.414  0l-2-2a1  1  0  0  1  1.414-1.414L9  10.586l3.293-3.293a1  1  0  0  1  1.414  1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 ms-3">Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.</span>
+                        </li>
+                        <li class="flex">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-700" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0  0  20  20">
+                                <path
+                                    d="M10 .5a9.5  9.5  0  1  0  9.5  9.5A9.51  9.51  0  0  0  10 .5Zm3.707  8.207-4  4a1  1  0  0  1-1.414  0l-2-2a1  1  0  0  1  1.414-1.414L9  10.586l3.293-3.293a1  1  0  0  1  1.414  1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 ms-3">Learn the latest technologies, including Javascript, React, Node and even Web3 development.</span>
+                        </li>
+                        <li class="flex">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-700" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0  0  20  20">
+                                <path
+                                    d="M10 .5a9.5  9.5  0  1  0  9.5  9.5A9.51  9.51  0  0  0  10 .5Zm3.707  8.207-4  4a1  1  0  0  1-1.414  0l-2-2a1  1  0  0  1  1.414-1.414L9  10.586l3.293-3.293a1  1  0  0  1  1.414  1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 ms-3">After the course you will be able to build ANY website you want.</span>
+                        </li>
+                    </ul>
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Enroll Now</button>
+                </div>
+                <div
+                    class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+                    <!-- Card Image -->
+                    <img src="https://img-c.udemycdn.com/course/240x135/543600_64d1_4.jpg" alt="Card image"
+                        class="w-full h-48 object-cover rounded-t-lg border border-gray-300g">
+                    <!-- Title under the image -->
+                    <h2 class="text-xl text-center font-semibold mt-4">Automate the Boring Stuff with Python Programming</h2>
+                    <!-- Price -->
+                    <div class="text-center mt-2">
+                        <span class="text-2xl font-bold text-blue-700">$74.99</span>
+                        <span class="text-base font-medium text-gray-500">/month</span>
+                    </div>
+                    <ul role="list" class="space-y-5 my-7">
+                        <li class="flex items-center">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-700" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0  0  20  20">
+                                <path
+                                    d="M10 .5a9.5  9.5  0  1  0  9.5  9.5A9.51  9.51  0  0  0  10 .5Zm3.707  8.207-4  4a1  1  0  0  1-1.414  0l-2-2a1  1  0  0  1  1.414-1.414L9  10.586l3.293-3.293a1  1  0  0  1  1.414  1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 ms-3">Automate tasks on their computer by writing simple Python programs.</span>
+                        </li>
+                        <li class="flex">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-700" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0  0  20  20">
+                                <path
+                                    d="M10 .5a9.5  9.5  0  1  0  9.5  9.5A9.51  9.51  0  0  0  10 .5Zm3.707  8.207-4  4a1  1  0  0  1-1.414  0l-2-2a1  1  0  0  1  1.414-1.414L9  10.586l3.293-3.293a1  1  0  0  1  1.414  1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 ms-3">Programmatically generate and update Excel spreadsheets.</span>
+                        </li>
+                        <li class="flex">
+                            <svg class="flex-shrink-0 w-4 h-4 text-blue-700" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0  0  20  20">
+                                <path
+                                    d="M10 .5a9.5  9.5  0  1  0  9.5  9.5A9.51  9.51  0  0  0  10 .5Zm3.707  8.207-4  4a1  1  0  0  1-1.414  0l-2-2a1  1  0  0  1  1.414-1.414L9  10.586l3.293-3.293a1  1  0  0  1  1.414  1.414Z" />
+                            </svg>
+                            <span class="text-base font-normal leading-tight text-gray-500 ms-3">Crawl web sites and pull information from online sources.</span>
+                        </li>
+                    </ul>
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Enroll Now</button>
+                </div>
+
+            </div>
+            
+
+
+
+
+
+        </section>
+    </main>
+    <!-- bottom Hero -->
+    <section class="" style="background: linear-gradient(to top, #A0DDFF, #ffffff);">
+        <div class="grid max-w-screen-2xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 justify-between">
+            <div class="hidden lg:mt-0 lg:col-span-4 lg:flex px-5">
+                <img src="image/Education-amico.png" alt="mockup">
+            </div>
+            <div class="ml-auto place-self-center lg:col-span-7">
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
+                    Unlock Your Potential</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                    Embrace the power of continuous learning! Our eLearning platform is designed to inspire and empower
+                    you to reach your full potential. Whether you're looking to advance in your career, gain new skills,
+                    or simply explore topics of interest, we offer a wide range of courses tailored to your needs.
+                    With our interactive lessons, expert guidance, and flexible learning paths, you'll be able to learn
+                    at your own pace and on your own schedule. We understand that everyone has unique goals and
+                    aspirations, so we provide personalized learning experiences to help you stay focused and motivated.
+                    Join us today and take the first step towards achieving your educational dreams. Let's transform
+                    your learning journey into a rewarding adventure!</p>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <footer class="bg-white">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="https://flowbite.com/" class="flex items-center">
+                        <img src="image/Logo.png" class="h-[50px] me-3" alt="FlowBite Logo" />
+                        <span
+                            class="self-center text-2xl font-semibold whitespace-nowrap text-gray-800">E-Learning</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-800 uppercase">HELP AND SUPPORT</h2>
+                        <ul class="text-gray-500 font-medium">
+                            <li class="mb-4">
+                                <a href="https://flowbite.com/" class="hover:underline">Contact Us</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="https://flowbite.com/" class="hover:underline">Knowledge Center</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="https://flowbite.com/" class="hover:underline">Premium Support</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="https://flowbite.com/" class="hover:underline">Sponsorships</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-800 uppercase">Legal</h2>
+                        <ul class="text-gray-500 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">EULA </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-800 uppercase">Address</h2>
+                        <p class="text-gray-500 font-medium">#242, St.271, Sangkat Boeung Tumpun,
+                            <br>
+                            Khan Mean Chey, Phnom Penh, Cambodia</br>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+            <div class="flex justify-center items-center">
+                <span class="text-sm text-gray-500 sm:text-center">© 2023 <a href="https://flowbite.com/"
+                        class="hover:underline">Elearning™</a>. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<!-- Flowbite Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+</html>
